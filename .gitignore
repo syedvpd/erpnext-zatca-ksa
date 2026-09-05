@@ -21,31 +21,8 @@ wheels/
 .installed.cfg
 *.egg
 
-# Root-level scratch and inspection scripts
-inspect_*.py
-check_*.py
-create_master*.py
-create_transactions.py
-execute_clean_transactions.py
-finish_transactions.py
-generate_p2_xml*.py
-init_saudi_accounting.py
-list_*.py
-preview_xml.py
-refine_xml.py
-render_final_xml.py
-run_sw.py
-run_transactions.py
-setup_accounts_prereq.py
-setup_p1_settings.py
-setup_saudi_*.py
-setup_tax_cat.py
-test_*.py
-update_inv_tax_template.py
-verify_*.py
-find_xml_usage.py
-create_stc_and_link.py
-/COMPLETE_SYSTEM_GUIDE.md
+# Root-level duplicate python scripts (all tracked in scripts/)
+/*.py
 
 # Docker & Environment
 .env
