@@ -1,6 +1,6 @@
-﻿MIT License
+MIT License
 
-Copyright (c) 2026 SYED ZUBAIR (syedvpd)
+Copyright (c) 2026 SYED ZUBAIR
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,33 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+================================================================================
+THIRD-PARTY OPEN-SOURCE COMPONENTS & UPSTREAM LICENSES
+================================================================================
+
+This product incorporates, bundles, and integrates the following third-party
+open-source software components:
+
+1. Frappe Framework
+   - Author / Copyright: (c) Frappe Technologies Pvt. Ltd.
+   - License: MIT License
+   - Repository: https://github.com/frappe/frappe
+
+2. ERPNext
+   - Author / Copyright: (c) Frappe Technologies Pvt. Ltd. and contributors
+   - License: GNU General Public License v3.0 (GPLv3)
+   - Repository: https://github.com/frappe/erpnext
+
+3. KSA Compliance (ZATCA E-Invoicing Phase 1 & Phase 2)
+   - Author / Copyright: (c) 2024, LavaLoon and contributors
+   - License: GNU Affero General Public License v3.0 (AGPLv3)
+   - Repository: https://github.com/Lavaloon/ksa_compliance
+
+4. Frappe Docker
+   - Author / Copyright: (c) Frappe Technologies Pvt. Ltd.
+   - License: MIT License
+   - Repository: https://github.com/frappe/frappe_docker
+
+All third-party code retains its original copyright notices, license files,
+and open-source terms.

@@ -1,9 +1,9 @@
 ﻿app_name = 'ksa_compliance'
 app_title = 'KSA Compliance'
-app_publisher = "SYED ZUBAIR"
+app_publisher = "SYED ZUBAIR (Integration) / LavaLoon (Upstream)"
 app_description = 'KSA Compliance app for E-invoice'
 app_email = "zubairkhadri123@gmail.com"
-app_license = 'Copyright (c) 2023 LavaLoon'
+app_license = "GNU AGPLv3"
 # required_apps = []
 
 # Includes in <head>

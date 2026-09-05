@@ -19,7 +19,7 @@ def get_feedback_settings():
     """Get feedback settings from ZATCA Feedback Settings"""
     email_accounts = frappe.db.get_list('Email Account', fields=['email_id'], filters={'default_outgoing': 1}, limit=1)
     feedback_destination_site_url = (
-        frappe.conf.get('feedback_destination_site_url', 'https://lavaloon.com/').rstrip('/') + '/'
+        frappe.conf.get('feedback_destination_site_url', '').rstrip('/') + '/'
     )
 
     api_url = urllib.parse.urljoin(
@@ -28,7 +28,7 @@ def get_feedback_settings():
 
     settings_dict = {
         'API_URL': api_url,
-        'LAVALOON_CONTACT_PAGE': 'https://lavaloon.com/contact-us',
+        'LAVALOON_CONTACT_PAGE': '',
         'MAX_FILE_SIZE_MB': 5,
         'MAX_NUMBER_OF_FILES': 3,
         'ALLOWED_FILE_TYPES': ['.pdf', '.png', '.jpeg', '.docx'],

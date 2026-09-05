@@ -1,11 +1,11 @@
-﻿# ERPNext Saudi ZATCA E-Invoicing Suite (v15)
+﻿# Saudi Accounting & ZATCA ERP Suite (v15)
 
 [![ERPNext Version](https://img.shields.io/badge/ERPNext-v15.121.0-blue.svg)](https://github.com/frappe/erpnext)
 [![Frappe Framework](https://img.shields.io/badge/Frappe-v15.120.0-orange.svg)](https://github.com/frappe/frappe)
 [![ZATCA Compliance](https://img.shields.io/badge/ZATCA-Phase%201%20%26%20Phase%202-green.svg)](https://zatca.gov.sa)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Author](https://img.shields.io/badge/Maintained%20by-SYED%20ZUBAIR-purple.svg)](https://github.com/syedvpd)
+[![Integrated & Packaged by](https://img.shields.io/badge/Integrated%20by-SYED%20ZUBAIR-purple.svg)](https://github.com/syedvpd/erpnext-zatca-ksa)
 
 A self-hosted, enterprise-grade **ERPNext v15** distribution engineered for businesses operating in the **Kingdom of Saudi Arabia (KSA)**. Features native localization, automated **15% VAT**, a pre-configured Saudi Chart of Accounts, and a complete implementation of **ZATCA (Fatoora) E-Invoicing (Phase 1 Generation & Phase 2 Integration)**.
 
@@ -185,3 +185,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **SYED ZUBAIR**  
 GitHub: [@syedvpd](https://github.com/syedvpd)  
 Email: zubairkhadri123@gmail.com
+
+---
+
+---
+
+---
+
+## License & Open-Source Attribution
+
+This integrated suite is distributed under a multi-license model respecting all upstream open-source authors and projects:
+
+- **Custom Integration, Docker Orchestration, Automation Scripts & Tooling**: [MIT License](LICENSE) (c) 2026 SYED ZUBAIR.
+- **Core ERP & Financial Accounting Engine**: [ERPNext](https://github.com/frappe/erpnext) - Licensed under GNU General Public License v3.0 (GPLv3) by Frappe Technologies Pvt. Ltd. and contributors.
+- **Underlying Web & Metadata Framework**: [Frappe Framework](https://github.com/frappe/frappe) - Licensed under MIT License by Frappe Technologies Pvt. Ltd.
+- **Saudi Regulatory & ZATCA Compliance Module**: [KSA Compliance](https://github.com/Lavaloon/ksa_compliance) - Licensed under GNU Affero General Public License v3.0 (AGPLv3) by LavaLoon and contributors.
+- **Docker Compose & Container Topology Templates**: [Frappe Docker](https://github.com/frappe/frappe_docker) - Licensed under MIT License by Frappe Technologies Pvt. Ltd.
+
+All trademarks, logos, and brand names are the property of their respective owners.
