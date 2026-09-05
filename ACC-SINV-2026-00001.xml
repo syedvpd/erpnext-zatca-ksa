@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+         xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <cbc:ProfileID>reporting:1.0</cbc:ProfileID>
+    <cbc:ID>ACC-SINV-2026-00001</cbc:ID>
+    <cbc:UUID>2f42715c-4bc2-40d6-b350-1166f25e1ae4</cbc:UUID>
+    <cbc:IssueDate>2026-09-05</cbc:IssueDate>
+    <cbc:IssueTime>10:08:15</cbc:IssueTime>
+    <cbc:InvoiceTypeCode name="{{ no such element: dict object['invoice_type_transaction'] }}">{{ no such element: dict object['invoice_type_code'] }}</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>SAR</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>SAR</cbc:TaxCurrencyCode>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID>ICV</cbc:ID>
+        <cbc:UUID>1</cbc:UUID>
+    </cac:AdditionalDocumentReference>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID>PIH</cbc:ID>
+        <cac:Attachment>
+            <cbc:EmbeddedDocumentBinaryObject mimeCode="text/plain">X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k=</cbc:EmbeddedDocumentBinaryObject>
+        </cac:Attachment>
+    </cac:AdditionalDocumentReference>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PostalAddress>
+                <cbc:StreetName>King Fahd Road, Al Olaya</cbc:StreetName>
+                <cbc:BuildingNumber>{{ no such element: dict object[&#39;building_number&#39;] }}</cbc:BuildingNumber>
+                <cbc:CitySubdivisionName>{{ no such element: dict object[&#39;city_subdivision_name&#39;] }}</cbc:CitySubdivisionName>
+                <cbc:CityName>Riyadh</cbc:CityName>
+                <cac:Country>
+                    <cbc:IdentificationCode>SA</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+                <cac:PartyTaxScheme>
+                    <cbc:CompanyID>310123456700003</cbc:CompanyID>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Demo Saudi Trading Company</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PostalAddress>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Saudi B2B Customer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-09-05</cbc:ActualDeliveryDate>
+    </cac:Delivery>
+    <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:Amount currencyID="SAR">0.0</cbc:Amount>
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>15.0</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="SAR">600.0</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="SAR">600.0</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="SAR">4000.0</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="SAR">600.0</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>15.0</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID>VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        
+    </cac:TaxTotal>
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SAR">4000.0</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR">4000.0</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR">4600.0</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="SAR">0.0</cbc:AllowanceTotalAmount>
+
+        <cbc:PayableAmount currencyID="SAR">4600.0</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="PCE">2.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SAR">4000.0</cbc:LineExtensionAmount>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="SAR">600.0</cbc:TaxAmount>
+            <cbc:RoundingAmount currencyID="SAR">4600.0</cbc:RoundingAmount>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Name>Laptop</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>15.0</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+
+            <cbc:PriceAmount currencyID="SAR">4000.0</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="PCE">2.0</cbc:BaseQuantity>
+        </cac:Price>
+    </cac:InvoiceLine>
+
+</Invoice>
