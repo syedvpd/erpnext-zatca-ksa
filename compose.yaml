@@ -1,4 +1,4 @@
-﻿name: erpnext-saudi-demo
+name: erpnext-saudi-demo
 
 services:
   backend:
@@ -39,6 +39,12 @@ services:
         bench set-config -g redis_queue "redis://$$REDIS_QUEUE";
         bench set-config -g redis_socketio "redis://$$REDIS_QUEUE";
         bench set-config -gp socketio_port $$SOCKETIO_PORT;
+        rm -rf sites/assets && cp -r /home/frappe/frappe-bench/assets sites/assets;
+        rm -rf sites/assets/frappe sites/assets/erpnext sites/assets/ksa_compliance;
+        cp -r /home/frappe/frappe-bench/apps/frappe/frappe/public sites/assets/frappe;
+        cp -r /home/frappe/frappe-bench/apps/erpnext/erpnext/public sites/assets/erpnext;
+        cp -r /home/frappe/frappe-bench/apps/ksa_compliance/ksa_compliance/public sites/assets/ksa_compliance;
+        chown -R 1000:1000 sites/assets;
     environment:
       DB_HOST: db
       DB_PORT: "3306"
