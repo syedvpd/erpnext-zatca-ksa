@@ -194,20 +194,26 @@ Email: zubairkhadri123@gmail.com
 
 ---
 
-## 📚 Enterprise Platform Documentation
+---
 
-A comprehensive, institutional-grade engineering and business documentation suite is available in the [`docs/`](docs/) directory:
+## 🏛️ Comprehensive Institutional & Engineering Documentation Suite
 
-1. [**Product Requirements Document (PRD)**](docs/01_PRODUCT_REQUIREMENTS_DOCUMENT_PRD.md) — Strategic vision, user personas (CFO, Chief Accountant, Sales Manager), functional scope, and acceptance criteria.
-2. [**Software Requirements Specification (SRS)**](docs/02_SOFTWARE_REQUIREMENTS_SPECIFICATION_SRS.md) — ZATCA Phase 1 (TLV QR) and Phase 2 (UBL 2.1 XML / ICV / PIH) regulatory specifications and use cases.
-3. [**Technical Requirements Document (TRD)**](docs/03_TECHNICAL_REQUIREMENTS_DOCUMENT_TRD.md) — Full technology stack, Python 3.11, MariaDB 11.8, Gunicorn, Redis, and port architecture.
-4. [**System Architecture & Multi-Tier Topology**](docs/04_SYSTEM_ARCHITECTURE_AND_LAYERS.md) — 5-tier architectural blueprint explaining the 9-container micro-topology.
-5. [**Backend Architecture & Execution Flow**](docs/05_BACKEND_ARCHITECTURE.md) — Request lifecycle, Frappe DocType ORM, Hook system, and transaction boundaries.
-6. [**Frontend Architecture & UI**](docs/06_FRONTEND_ARCHITECTURE.md) — Frappe Desk SPA, Awesome Bar, Jinja2 print formats, and Arabic (RTL) / English bilingual support.
-7. [**Database Architecture & ERD**](docs/07_DATABASE_ARCHITECTURE_AND_ERD.md) — MariaDB 11.8 InnoDB schema, Mermaid ERD diagrams, and live GL balance audit.
-8. [**Business Workflows & Flowcharts**](docs/08_BUSINESS_WORKFLOWS_AND_MODULE_FLOWCHARTS.md) — End-to-end Order-to-Cash (O2C), Procure-to-Pay (P2P), and ZATCA Phase 2 Clearance/Reporting flowcharts.
-9. [**Client First-Time Exploration Guide**](docs/09_CLIENT_FIRST_TIME_EXPLORATION_GUIDE.md) — 5-minute interactive onboarding walkthrough for clients and evaluators.
-10. [**Enterprise Production Deployment Guide**](docs/10_ENTERPRISE_DEPLOYMENT_GUIDE.md) — Production hosting in Saudi cloud regions (Oracle Cloud, AWS Riyadh, STC Cloud), Let's Encrypt SSL, and automated backups.
+This repository includes a complete, enterprise-grade documentation suite matching Fortune-500 ERP specifications, located in the [`docs/`](docs/) folder:
+
+| Document | File Name | Purpose & Description |
+| :--- | :--- | :--- |
+| **Project Overview** | [`ERP_Saudi_ZATCA_Project_Overview.md`](docs/ERP_Saudi_ZATCA_Project_Overview.md) | Executive brief, business problem analysis, solution architecture, and market positioning. |
+| **PRD** | [`ERP_Saudi_ZATCA_PRD.md`](docs/ERP_Saudi_ZATCA_PRD.md) | Product Requirements Document: Personas (CFO, Chief Accountant, Sales Manager, IT Admin), feature priorities, acceptance criteria. |
+| **SRS** | [`ERP_Saudi_ZATCA_SRS.md`](docs/ERP_Saudi_ZATCA_SRS.md) | Software Requirements Specification: ZATCA Phase 1 & 2 regulatory specifications (Tags 1–9 TLV QR, UBL 2.1 XML, ICV, PIH hash chaining). |
+| **TRD** | [`ERP_Saudi_ZATCA_TRD.md`](docs/ERP_Saudi_ZATCA_TRD.md) | Technical Requirements Document: Full tech stack, Debian Bookworm, Python 3.11, MariaDB 11.8, Gunicorn, Redis, Python-RQ workers. |
+| **Backend Architecture** | [`ERP_Saudi_ZATCA_Backend_Architecture.md`](docs/ERP_Saudi_ZATCA_Backend_Architecture.md) | Frappe DocType ORM lifecycle, Controller hooks, ZATCA XML hook implementation, atomic database boundaries. |
+| **Frontend Architecture** | [`ERP_Saudi_ZATCA_Frontend_Architecture.md`](docs/ERP_Saudi_ZATCA_Frontend_Architecture.md) | Frappe Desk SPA runtime, Awesome Bar, dual-language Arabic (RTL) / English layout engine, bilingual print formats. |
+| **ERD & Database Schema** | [`ERP_Saudi_ZATCA_ERD_and_Schema.md`](docs/ERP_Saudi_ZATCA_ERD_and_Schema.md) | MariaDB 11.8 schema, complete Entity Relationship Diagram (ERD), table DDL (`tabSales Invoice`, `tabGL Entry`), live audit snapshot. |
+| **Application Workflow** | [`ERP_Saudi_ZATCA_App_Workflow.md`](docs/ERP_Saudi_ZATCA_App_Workflow.md) | Detailed business cycles: Order-to-Cash (O2C), Procure-to-Pay (P2P), Record-to-Report (R2R), and automated VAT returns. |
+| **Wireframes & UI Specs** | [`ERP_Saudi_ZATCA_Wireframes_and_UI_Specs.md`](docs/ERP_Saudi_ZATCA_Wireframes_and_UI_Specs.md) | Layout ASCII wireframes for Desk Dashboard, Sales Invoice form with live QR metadata, and bilingual Tax Invoice print format. |
+| **Module Flow Diagrams** | [`ERP_Saudi_ZATCA_Module_Flow_Diagrams.md`](docs/ERP_Saudi_ZATCA_Module_Flow_Diagrams.md) | Visual flowcharts for ZATCA Phase 1 TLV packing, Phase 2 cryptographic hash chaining, and GL double-entry balancing. |
+| **First-Time Client Walkthrough** | [`ERP_Saudi_ZATCA_First_Time_Client_Exploration_Guide.md`](docs/ERP_Saudi_ZATCA_First_Time_Client_Exploration_Guide.md) | Step-by-step clickable evaluator guide for checking the chart of accounts, testing QR invoices, and verifying tax ledgers. |
+| **Deployment Manual** | [`ERP_Saudi_ZATCA_Cloud_and_OnPrem_Deployment_Manual.md`](docs/ERP_Saudi_ZATCA_Cloud_and_OnPrem_Deployment_Manual.md) | Production hosting in Saudi cloud regions (Oracle Cloud Riyadh, AWS Riyadh, STC Cloud), Let's Encrypt SSL, and automated backup crons. |
 
 ---
 
