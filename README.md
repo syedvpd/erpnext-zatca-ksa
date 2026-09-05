@@ -192,6 +192,25 @@ Email: zubairkhadri123@gmail.com
 
 ---
 
+---
+
+## 📚 Enterprise Platform Documentation
+
+A comprehensive, institutional-grade engineering and business documentation suite is available in the [`docs/`](docs/) directory:
+
+1. [**Product Requirements Document (PRD)**](docs/01_PRODUCT_REQUIREMENTS_DOCUMENT_PRD.md) — Strategic vision, user personas (CFO, Chief Accountant, Sales Manager), functional scope, and acceptance criteria.
+2. [**Software Requirements Specification (SRS)**](docs/02_SOFTWARE_REQUIREMENTS_SPECIFICATION_SRS.md) — ZATCA Phase 1 (TLV QR) and Phase 2 (UBL 2.1 XML / ICV / PIH) regulatory specifications and use cases.
+3. [**Technical Requirements Document (TRD)**](docs/03_TECHNICAL_REQUIREMENTS_DOCUMENT_TRD.md) — Full technology stack, Python 3.11, MariaDB 11.8, Gunicorn, Redis, and port architecture.
+4. [**System Architecture & Multi-Tier Topology**](docs/04_SYSTEM_ARCHITECTURE_AND_LAYERS.md) — 5-tier architectural blueprint explaining the 9-container micro-topology.
+5. [**Backend Architecture & Execution Flow**](docs/05_BACKEND_ARCHITECTURE.md) — Request lifecycle, Frappe DocType ORM, Hook system, and transaction boundaries.
+6. [**Frontend Architecture & UI**](docs/06_FRONTEND_ARCHITECTURE.md) — Frappe Desk SPA, Awesome Bar, Jinja2 print formats, and Arabic (RTL) / English bilingual support.
+7. [**Database Architecture & ERD**](docs/07_DATABASE_ARCHITECTURE_AND_ERD.md) — MariaDB 11.8 InnoDB schema, Mermaid ERD diagrams, and live GL balance audit.
+8. [**Business Workflows & Flowcharts**](docs/08_BUSINESS_WORKFLOWS_AND_MODULE_FLOWCHARTS.md) — End-to-end Order-to-Cash (O2C), Procure-to-Pay (P2P), and ZATCA Phase 2 Clearance/Reporting flowcharts.
+9. [**Client First-Time Exploration Guide**](docs/09_CLIENT_FIRST_TIME_EXPLORATION_GUIDE.md) — 5-minute interactive onboarding walkthrough for clients and evaluators.
+10. [**Enterprise Production Deployment Guide**](docs/10_ENTERPRISE_DEPLOYMENT_GUIDE.md) — Production hosting in Saudi cloud regions (Oracle Cloud, AWS Riyadh, STC Cloud), Let's Encrypt SSL, and automated backups.
+
+---
+
 ## License & Open-Source Attribution
 
 This integrated suite is distributed under a multi-license model respecting all upstream open-source authors and projects:
